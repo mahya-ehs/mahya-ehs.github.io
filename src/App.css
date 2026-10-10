@@ -487,6 +487,17 @@ html:not(.fonts-ready) .hero-section .navbar {
   position: relative;
 }
 
+.edu-more a {
+  color: var(--brand-yellow);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.edu-more a:hover {
+  text-decoration-thickness: 2px;
+}
+
 .edu-more li::before {
   content: '';
   position: absolute;
@@ -974,6 +985,16 @@ html:not(.fonts-ready) .hero-section .navbar {
   font-family: 'Alex Brush', cursive;
   font-size: clamp(48px, 6vw, 72px);
   font-weight: 400;
+}
+
+/* sits just under the heading: pulls up into the heading's bottom margin */
+.projects-hint {
+  position: relative;
+  z-index: 1;
+  margin: calc(12px - clamp(40px, 6vh, 64px)) 0 clamp(32px, 5vh, 52px);
+  color: rgba(247, 243, 237, 0.7);
+  font-size: 15px;
+  letter-spacing: 0.02em;
 }
 
 .projects-tabs {

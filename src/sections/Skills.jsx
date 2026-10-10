@@ -7,19 +7,19 @@ const skillsData = [
     },
     {
         title: 'ML & Data Science',
-        content: 'PyTorch, Scikit-learn, OpenCV, Hugging Face Transformers, Pandas, NumPy, Matplotlib',
+        content: 'PyTorch, Scikit-learn, OpenCV, Pandas, NumPy, Matplotlib',
     },
     {
         title: 'App Development',
-        content: 'JavaFX, Jetpack Compose',
+        content: 'Jetpack Compose, JavaFX',
     },
     {
         title: 'Web Development',
-        content: 'React.js, Django, Tailwind CSS, HTML, CSS, Bootstrap, MySQL',
+        content: 'HTML, CSS, Bootstrap, MySQL, React.js, Figma',
     },
     {
         title: 'Tools',
-        content: 'Git, Postman, Docker, Linux, Selenium, Robot Framework',
+        content: 'Git, Postman, Docker, AWS (learning), Dagster, Linux, Selenium, Robot Framework',
     },
     {
         title: 'Languages',

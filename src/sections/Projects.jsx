@@ -23,6 +23,7 @@ function Projects() {
         <section className="projects-section" id="projects">
             <div className="projects-texture" style={{ backgroundImage: `url(${stardust})` }} aria-hidden="true" />
             <h2 className="projects-title" data-reveal>My Projects</h2>
+            <p className="projects-hint" data-reveal style={{ '--reveal-delay': '60ms' }}>Click on each project for more info</p>
 
             {featuredProjects.length > 0 && (
                 <div className="projects-slider" aria-label="Featured projects slider" data-reveal style={{ '--reveal-delay': '120ms' }}>
