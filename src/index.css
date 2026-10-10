@@ -1,0 +1,17 @@
+:root {
+  --brand-yellow: #ffd52b;
+  font-family: 'Poppins', 'Trebuchet MS', sans-serif;
+  color: #f7f3ed;
+  background: #171414;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
